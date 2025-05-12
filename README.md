@@ -1,1 +1,5 @@
-# wayback
+Wayback Scraper Tool
+
+Wayback Scraper is a lightweight Bash utility that extracts archived URLs from the Internet Archive's Wayback Machine. By simply providing a domain name, the tool queries web.archive.org's public API to retrieve all historically captured URLs, including subdomains. It automatically processes and deduplicates the results, saving them to a structured text file for further analysis.
+The script features robust error handling, progress indicators, and comprehensive validation to ensure reliable operation even with inconsistent API responses. It requires minimal dependencies (only curl and jq) and works seamlessly on Kali Linux and other Unix-based systems.
+Security researchers, digital forensics specialists, and web developers can leverage this tool to discover forgotten endpoints, analyze historical website structures, and recover lost content. The tool respects API limits while providing valuable insights into a domain's archived digital footprint, all through an efficient command-line interface.
